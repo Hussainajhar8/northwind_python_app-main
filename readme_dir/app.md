@@ -72,6 +72,7 @@ Check the versions for the python dependencies.
 - Run the application: `waitress-serve --port=5000 northwind_web:app`.
 Confirm it is running.
 ![Application Running](img/image-4.png)
+![Application Running](img/image-5.png)
 
 ### Step 10: Set Database Connection URI
 Export the DB_CONNECTION_URI environment variable: `export DB_CONNECTION_URI='mysql+pymysql://<user>:<password>@<ip-of-db>:3306/northwind'`.
@@ -81,6 +82,7 @@ Export the DB_CONNECTION_URI environment variable: `export DB_CONNECTION_URI='my
 Restart the application to apply changes.
 Confirm it is running as expected.
 ![Application Restarted](img/image-7.png)
+![Application Restarted](img/image-8.png)
 
 ### Final Script
 
