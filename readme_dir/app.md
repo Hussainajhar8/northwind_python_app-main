@@ -1,7 +1,7 @@
-# Setting up Web VM
+# Setting up Northwind application
 
 ## Introduction
-To begin, let's set up our EC2 instance and open ports 20, 80, and 5000 on Ubuntu 20.24.
+To begin, we will set up our EC2 instance and open ports 20, 80, and 5000 on Ubuntu 20.24, then install the required dependencies and launch our app.
 
 ### Step 1: Create EC2 Instance
 Launch an EC2 instance and ensure ports 20, 80, and 5000 are open in the security group.
